@@ -5,7 +5,7 @@ import os
 
 app = Flask(__name__)
 
-CHANNEL_ACCESS_TOKEN = os.environ.get("LajWsrkCCFDfYOd29pXdLo7AgOkSv+X3ZLUdoLrIBIfNqC/nivQUfCEAcvd6+IPIcAwH69hqnEPe2JbxEyCFrHrwk6mvd14YRrKu9Aap3VLEm0CXCngvHDo9GoB9DFE7lrFGidkwlR/vRYvSZkf97wdB04t89/1O/w1cDnyilFU=")
+CHANNEL_ACCESS_TOKEN = os.environ.get("CHANNEL_ACCESS_TOKEN")
 RICH_MENU_TH = "richmenu-b481621c4851916bff1e78f2bca39244"
 RICH_MENU_EN = "richmenu-08ab625ef57d3cb4bff42217a1091943"
 
