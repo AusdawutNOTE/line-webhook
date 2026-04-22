@@ -6,8 +6,8 @@ import os
 app = Flask(__name__)
 
 CHANNEL_ACCESS_TOKEN = os.environ.get("CHANNEL_ACCESS_TOKEN")
-RICH_MENU_TH = "richmenu-b481621c4851916bff1e78f2bca39244"
-RICH_MENU_EN = "richmenu-08ab625ef57d3cb4bff42217a1091943"
+RICH_MENU_TH = os.environ.get("RICH_MENU_TH")
+RICH_MENU_EN = os.environ.get("RICH_MENU_EN")
 
 @app.route("/webhook", methods=["POST"])
 def webhook():
